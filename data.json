@@ -1,0 +1,22 @@
+{
+    "task" : [
+    {
+        "name" : "CLI prject",
+        "day_start" : 12,
+        "mounth_start": 3,
+        "is_done" : false
+    },
+    {
+        "name" : "Finish website",
+        "day_start" : 12,
+        "mounth_start": 3,
+        "is_done" : false
+    },
+    {
+        "name" : "Learn JAVA",
+        "day_start" : 12,
+        "mounth_start": 3,
+        "is_done" : false
+    }
+    ]
+}

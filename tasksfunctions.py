@@ -1,3 +1,5 @@
+import json
+
 def show_options():
 
     print("- Type what do you want to see:")
@@ -8,6 +10,16 @@ def show_options():
 def list_tasks():
 
     print("Tasks listed")
+    with open("data.json", "r") as file:
+        content = file.read()
+
+    content = json.loads(content)
+
+    for task_name in content['task']:
+        name = task_name["name"]
+        print(f"- {name}")
+
+   
 
 def add_tasks():
 
